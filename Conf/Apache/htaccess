@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^phpinfo$ phpinfo.php [NC]
+RewriteRule ^index$ index.html [NC]
+RewriteRule ^403$ custom_403.html [NC]
+RewriteRule ^404$ custom_404.html [NC]
